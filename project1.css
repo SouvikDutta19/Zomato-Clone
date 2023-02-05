@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(233, 232, 232);
+}
+
+#mainbox {
+    background-color: white;
+    width: 800px;
+    display: block;
+    height: 500px;
+    margin: 100px 300px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+#firstline {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    /* border: 2px solid red; */
+    /* border-radius: 5px; */
+    display: inline-block;
+    padding: 5px;
+    margin: 400px;
+    position: absolute;
+    /* left: 50px; */
+    /* top: 30px; */
+    bottom: 160px;
+    right: 570px;
+}
+
+.tagline {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 395px;
+}
+#webimage{
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+    top: 200px;
+    left: 395px;
+
+}
+.smallbox{
+    text-decoration: none;
+}
+.boxes li{
+    /* border: 3px solid red; */
+    border-radius: 10px;
+    background-color: rgb(246, 239, 229);
+    display: inline-block;
+    position: relative;
+    margin: 0px 7px;
+    width: 73px;
+    bottom: 310px;
+    left: 341px;
+    height: 125px;
+    padding: 7px;
+}
+#box1{
+    bottom: 350px;
+}
+#box2{
+    bottom: 350px;
+}
+#box3{
+    bottom: 315px;
+}
+.massage{
+    /* text-align: center; */
+    font-size: 15px;
+}
+#btn1{
+    display: inline-block;
+    position: absolute;
+    top: 540px;
+    left: 410px;
+    color: palevioletred;
+    border-radius: 7px;
+
+}
+#sidebox{
+    background-color: rgb(59, 78, 246);
+    border: 2px solid rgb(59, 78, 246);
+    border-radius: 7px;
+    display: block;
+    position: absolute;
+    bottom: 255px;
+    left: 730px;
+    padding: 10px;
+    height: 250px;
+    width: 15%;
+    color: white;
+}
+#btnread{
+    width: 90px;
+    border: 2px solid rgb(250, 3, 3);
+    border-radius: 5px;
+    margin: 26px 13px;
+    
+}
+#design1{
+    border: 5px solid rgb(59, 78, 246);
+    background-color:rgb(59, 78, 246);
+    border-radius: 7px;
+    display: inline-block;
+    position: absolute;
+    padding: 100px;
+    bottom: 27px;
+    left: 80px;
+    width: 300px;
+    height: 100px;
+    z-index: -1;
+    
+}
+
+#bar1{
+    background-color:rgb(59, 78, 246);
+    border: 2px solid rgb(59, 78, 246);
+    display: inline-block;
+    position: absolute;
+    bottom: 450px;
+    left: 270px;
+    padding: 1px;
+    width: 50px;
+}
+#bar2{
+    background-color:rgb(59, 78, 246);
+    border: 2px solid rgb(59, 78, 246);
+    display: block;
+    position: absolute;
+    bottom: 150px;
+    left: 1080px;
+    padding: 2px;
+    width: 40px;
+}
