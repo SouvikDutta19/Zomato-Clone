@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="zomato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container navbar flex">
+
+            <div class="container first-part flex">
+                <img id="mainlogo" src="asset 19.avif" alt="zomato logo">
+                <a href="#">Get the app</a>
+            </div>
+
+            <div class="container second-part flex">
+                <ul class="hover-links flex">
+                    <li><a href="#" class="hover-link">Investor Relation</a></li>
+                    <li><a href="#" class="hover-link">Add Restaurant</a></li>
+                    <li><a href="#" class="hover-link">Log in</a></li>
+                    <li><a href="#" class="hover-link">Sign up</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="container branding flex">
+            <img src="asset 4.avif" alt="Branding image" class="branding-image">
+        </div>
+        <h1 class="flex">Discover the best food & drinks in Kolkata
+        </h1>
+        <input type="search" class="container branding-input flex" placeholder="Search for restaurant, cuisine or dish">
+    </header>
+
+    <section class="container features flex">
+        <div class="features-child" id="features-child1">
+            <p class="features-p1">Order Online</p>
+            <p class="features-p2">Stay home and order to your doorstep</p>
+        </div>
+        <div class="features-child" id="features-child2">
+            <p class="features-p1">Dining</p>
+            <p class="features-p2">view the city's fevourite dining venues</p>
+        </div>
+        <div class="features-child" id="features-child3">
+            <p class="features-p1">Nightlife and club</p>
+            <p class="features-p2">Explore the city's fevourite nightlife outlets</p>
+        </div>
+    </section>
+
+    <div class="container collections-pre">
+        <h1>collections</h1>
+        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Kolkata, based on trends</p>
+        <span>All collections in Kolkata</span>
+    </div>
+    <section class="container collections flex">
+        <div class="collections-child" id="collections-child1">
+            <a href="#" id="collections-a1">20 Places to #BuskinLove</a>
+            <p class="collections-p" id="collections-p1">18 places</p>
+        </div>
+        <div class="collections-child" id="collections-child2">
+            <a href="#" id="collections-a2">10 Places to Chill & #Donothing</a>
+            <p class="collections-p" id="collections-p2">12 places</p>
+        </div>
+        <div class="collections-child" id="collections-child3">
+            <a href="#" id="collections-a3">13 Newly Opened Restaurants</a>
+            <p class="collections-p" id="collections-p3">12 places</p>
+        </div>
+        <div class="collections-child" id="collections-child4">
+            <a href="#" id="collections-a4">9 Great Buffets</a>
+            <p class="collections-p" id="collections-p4">9 places</p>
+        </div>
+    </section>
+    <div class="locations-p">
+        <p><b>Popular localities in and around Kolkata</p>
+    </div>
+    <section class="container locations flex">
+        <div class="locations-box">
+            <a href="" class="loc-flex">Park Street Area <p class="loc-flex-p">155 Places</p></a>
+            <a href="" class="loc-flex">Sector 5, Salt Lake <p class="loc-flex-p">199 Places</p></a>
+            <a href="" class="loc-flex">Sector 1, Salt Lake <p class="loc-flex-p">213 Places</p></a>
+            <a href="" class="loc-flex">Ballygunge <p class="loc-flex-p">173 Places</p></a>
+            <a href="" class="loc-flex">Southern Avenue <p class="loc-flex-p">114 Places</p></a>
+            <a href="" class="loc-flex">New Town <p class="loc-flex-p">662 Places</p></a>
+            <a href="" class="loc-flex">Camac Street Area <p class="loc-flex-p">155 Places</p></a>
+            <a href="" class="loc-flex">Chinar Park <p class="loc-flex-p">67 Places</p></a>
+            <a href="" class="loc-flex" id="loc-flex-last">See more <p class="loc-flex-p">Explore Now!</p></a>
+        </div>
+    </section>
+    <section class="container zomato-app flex">
+        <img src="asset 16.avif" alt="Zomato app" class="container">
+        <div class="container zomato-app-main">
+            <h1><b>Get the Zomato app</b></h1>
+            <p>We will send you a link, open it on your phone to download the app</p>
+            <input type="radio" name="emailorphone" class="zomato-app-radio"> Email
+            <input type="radio" name="emailorphone" class="zomato-app-radio"> Phone
+            <input type="email" id="zomato-app-email" placeholder="Email">
+            <input type="submit" id="zomato-app-submit" value="Share App Link">
+            <p id="zomato-app-lastp">Download app from</p>
+            <img src="asset 17.webp" alt="Google play">
+            <img src="asset 18.webp" alt="App store">
+        </div>
+    </section>
+    <p class="container explore-p locations-p">Explore options near me</p>
+    <section class="containerexplore">
+        <button type="button" class="collapsible">Popular cuisines near me</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In unde alias dolorum rem distinctio exercitationem nulla dicta, cumque quae adipisci qui odio quisquam cum animi explicabo doloribus velit? Est, ipsa.</p>
+        </div>
+        <button type="button" class="collapsible">Popular restaurant types near me</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In unde alias dolorum rem distinctio exercitationem nulla dicta, cumque quae adipisci qui odio quisquam cum animi explicabo doloribus velit? Est, ipsa.</p>
+        </div>
+        <button type="button" class="collapsible">Top Restaurant Chains</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In unde alias dolorum rem distinctio exercitationem nulla dicta, cumque quae adipisci qui odio quisquam cum animi explicabo doloribus velit? Est, ipsa.</p>
+        </div>
+        <button type="button" class="collapsible">Cities We Deliver To</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In unde alias dolorum rem distinctio exercitationem nulla dicta, cumque quae adipisci qui odio quisquam cum animi explicabo doloribus velit? Est, ipsa.</p>
+        </div>
+    </section>
+    <footer class="container footer">
+        <img src="asset 19.avif" alt="Footer-zomato">
+        <select class="select-country flex">
+            <option value="India" selected>India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <select class="select-language">
+            <option value="English" selected>English</option>
+            <option value="Bengali">Bengali</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <div class="f-div flex" id="f-div1">
+            <p>ABOUT ZOMATO</p>
+            <a href="#">Who we are</a>
+            <a href="#">Blog</a>
+            <a href="#">Work with us</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Report Fraud</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="f-div flex" id="f-div2">
+            <p>ZOMAVERSE</p>
+            <a href="#">Zomato</a>
+            <a href="#">Blinkit</a>
+            <a href="#">Feeding India</a>
+            <a href="#">Hyperpure</a>
+            <a href="#">Zomaland</a>
+        </div>
+        <div class="f-div flex" id="f-div3">
+            <p>FOR RESTAURANTS</p>
+            <a href="#">Partner With Us</a>
+            <a href="#">Apps For You</a>
+            <a href="#">FOR ENTERPRISES</a>
+            <a href="#">Zomato For Work</a>
+        </div>
+        <div class="f-div flex" id="f-div4">
+            <p>LEARN MORE</p>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+        </div>
+        <div class="f-div flex" id="f-div5">
+            <p>SOCIAL LINKS</p>
+            <a href="#"></a>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <div>
+                <img src="asset 18.webp" alt="app store">
+                <img src="asset 17.webp" alt="play store">
+            </div>
+        </div>
+        <hr>
+        <p id="footer-last-p">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/a428ae76bb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
